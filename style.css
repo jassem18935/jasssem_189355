@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 12px;
+}
+
+
+nav{
+    padding: 5px;
+    background: #555;
+}
+nav .logo , nav ul {
+display: inline-block;
+}
+nav ul{
+    float: left;
+    list-style: none;
+}
+
+nav ul li {
+    float: right;
+    padding: 15px;
+    margin-top: 10px;
+
+}
+
+.header{
+    margin-top: 20px;
+
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+
+
+}
+.box{
+    width: 300px; 
+    border: 1px solid gray;
+    float:right;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+.box a {
+    text-decoration: none;
+    background: #000;
+    color: white;
+    padding: 7px;
+    display: block;
+}
+/** CSS Contact form**/
+.myform{
+    border: 2px solid #eee;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.myform form {
+    background: #eee;
+    border-radius: 10px;
+}
+.myform input{
+    width: 80%;
+height: 30px;
+text-align: center;
+margin: 5px;
+border: 1px solid #fff;
+border-radius: 7px;
+
+}
+.myform textarea{
+    width: 80%;
+    border: 0;
+    resize:none ;
+    min-height: 200px;
+
+}
+input[type="submit"]{
+    background: #555;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer
+}
+input[type="submit"]:hover{ 
+    background: #888;
+}
+label{
+    display: block;
+
+}
+/** Registration CSS**/
+.reg,.login{
+    display: inline-block;
+    border: 2px solid #eee;
+    padding: 10px;
+    margin: 5px;
+}
+.reg{
+    width: 60%;
+
+}
+.login{
+    width: 30%;
+    float: left;
+}
+.reg input ,.login input{
+    width: 80%;
+height: 30px;
+text-align: center;
+margin: 5px;
+border: 1px solid #000;
+border-radius: 7px;
+
+}
+
+
+/****single book**/
+.boox{
+    border: 20px solid #eee;
+    padding: 15px;
+    margin: 15px;
+    height: 300px;
+    box-shadow: 1px 1px 6px #000;
+}
+.details , .img {
+display: inline-block;
+}
+.details{
+    width: 80%;
+    float: left;
+
+}
+.details h2{
+    padding: 10px;
+}
+.author{
+    color: black;
+    font-weight: 700;
+}
+
+.details p{
+    margin: 7px;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.download{
+    background: #707;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.download:hover{
+    background: #cf25a5;
+}
+.box a:hover{
+    background: #555;
+}
+
+footer{
+    clear: both;
+    background: #555;
+    padding: 30 px;
+    text-align: center;
+    color: #fff;
+}
+footer a {
+    text-decoration: none;
+    color: #eee;
+
+}
